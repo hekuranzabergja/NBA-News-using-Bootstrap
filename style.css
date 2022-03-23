@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    overflow-x:hidden;
+ 
+
+}
+/* NAVBARI */
+.btn-secondary {
+    color: #fff;
+    background-color:red;
+    border-color: #0066CC;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #0066CC;
+    border-color: #0066CC;
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+.nav-item{
+    margin-right: 5px;
+}
+
+.bg-dark {
+    background-color: #051c2d !important;
+}
+.mr-auto,
+.mx-auto {
+    margin-left: auto !important;
+}
+.carousel-control-prev-icon{
+    color: #000 !important;
+    margin-right: 3px !important;
+    
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-outline-success {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #0066CC;
+    border-color: #0066CC;
+}
+
+
+/* SLIDERAT */
+.carousel-control-prev-icon{
+    margin-right: 50px;
+   
+}
+/* TRENDING */
+.ngjyra{
+    background: #151618;
+    height: 80px;
+    color: #fff;
+}
+.ngjyra2{
+    background: #0066CC;
+    height: 80px;
+    margin:0;
+    padding: 0;
+}
+.ngjyra2 p{
+    text-align: center;
+}
+
+
+.paragrafi1 p{
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragrafi p,h5{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+/*  */
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: poppins;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+}
+
+
+
+
+
+.ndeshjet {
+	padding: 70px 0 60px;
+}
+
+.permbajtja h4 {
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+.permbajtja .tabela {
+	margin-bottom: 10px;
+}
+
+.permbajtja .tabela table {
+	width: 100%;
+}
+
+.permbajtja .tabela table tr {
+    /* background: rgba(21, 22, 24, 0.9); */
+    background: #0066CC;
+	margin-bottom: 10px;
+}
+
+.permbajtja .tabela table tr td {
+	padding: 16px 0;
+	width: 200px;
+}
+
+.permbajtja .tabela table tr td img {
+	height: 50px;
+	width: 50px;
+}
+
+.permbajtja .tabela table tr td h6 {
+	color: #ffffff;
+	display: inline-block;
+}
+
+.permbajtja .tabela table tr td.ekipa-e-majt {
+	padding-left: 40px;
+}
+
+.permbajtja .tabela table tr td.ekipa-e-majt img {
+	float: left;
+	margin-right: 10px;
+}
+
+.permbajtja .tabela table tr td.ekipa-e-majt h6 {
+	overflow: hidden;
+    line-height: 45px;
+}
+
+.permbajtja .tabela table tr td.ekipa-e-djathte {
+	text-align: right;
+	padding-right: 40px;
+}
+
+.permbajtja .tabela table tr td.ekipa-e-djathte img {
+	float: right;
+	margin-left: 10px;
+}
+
+.permbajtja .tabela table tr td.ekipa-e-djathte h6 {
+	float: right;
+	line-height: 45px;
+}
+
+.permbajtja .tabela table tr td.mesi {
+	width: 150px;
+	text-align: center;
+}
+
+.permbajtja .tabela table tr td.mesi .teksti {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.permbajtja .tabela table tr td.mesi h4 {
+	color: #ffffff;
+	font-weight: 700;
+	margin-top: 14px;
+	margin-bottom: 12px;
+}
+
+.lajme{
+    background-color: #fff;
+    color: #000;
+    /* box-shadow: 1px 1px 10px black; */
+    box-shadow: 0 0 10px 0 hsla(0,0%,81.6%,.5);
+    border-radius: 5px;
+}
+.lajme1{
+    background-color: #fff;
+    color: #000;
+    /* box-shadow: 0.5px 1px 5px black; */
+    box-shadow: 0 0 10px 0 hsla(0,0%,81.6%,.5);
+    border-radius: 5px;
+}
+.hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.h5{
+   color: black;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+   
+}
+.ngjyralajmeve{
+    color: #000;
+    text-decoration: none;
+}
+a{
+    color: #000;
+}
+a:hover{
+    color: #000;
+}
+.foto{
+    width: 20px;
+    height: 20px;
+}
+.fundi{
+    color: #fff;
+    border-top: 1px solid #fff !important;
+}
+.fundi2{
+    color: #fff !important;
+}
+.fundi22{
+    color: #fff !important;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.btn-primary:hover{
+    background-color: #0066CC !important;
+}
+.ngjyra3
+{
+    background-color: #0066CC;
+}
